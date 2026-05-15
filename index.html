@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Entrar</title>
     <link rel="stylesheet" href="style/Estilo.css">
-   <link rel="manifest" href="/pagina-login-web/manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#000000">
 </head>
 <body>
@@ -32,7 +32,7 @@
 
    <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/pagina-login-web/JS/serviceworker.js')
+  navigator.serviceWorker.register('./JS/serviceworker.js')
     .then(() => console.log('PWA ativa'))
     .catch(err => console.log(err));
 }

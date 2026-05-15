@@ -1,13 +1,13 @@
 {
   "name": "Minha PWA",
   "short_name": "PWA",
-  "start_url": "/pagina-login-web/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/pagina-login-web/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
