@@ -11,13 +11,14 @@
 <body>
 
     <div class="login">
-        <form class="loginform">
+        <form class="loginform" onsubmit="login(event)">
             <h2>Entrar</h2>
 
             <div class="input-group">
-                <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                <label for="rm">RM</label>
+                <input type="text" name="rm" id="rm" placeholder="Digite seu RM" required>
             </div>
+            
 
             <div class="input-group">
                 <label for="password">Senha</label>
@@ -37,6 +38,8 @@ if ('serviceWorker' in navigator) {
     .catch(err => console.log(err));
 }
 </script>
+
+<script src="JS/login.js"></script>
 
 </body>
 </html>

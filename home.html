@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Racing News</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="manifest" href="./manifest.json">
+    
+    <meta name="theme-color" content="#d40000">
+</head>
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="top-header">
+
+        <div class="logo">
+            <h1>🏎 AUTO RACING NEWS</h1>
+        </div>
+
+        <nav class="menu">
+            <a href="#">FÓRMULA 1</a>
+            <a href="#">ENDURANCE</a>
+            <a href="#">INDYCAR</a>
+            <a href="#">WEC</a>
+            <a href="#">GT SERIES</a>
+            <a href="#">RALLYES</a>
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- BANNER -->
+
+<section class="banner">
+    <h2>As principais notícias do automobilismo mundial</h2>
+</section>
+
+<!-- NOTÍCIAS -->
+
+<main class="news-container">
+
+    <!-- NOTÍCIA 1 -->
+    <a href="https://www.cnnbrasil.com.br/esportes/automobilismo/max-verstappen-abandona-as-24-horas-de-nurburgring-apos-falha-mecanica/" target="_blank" class="news-card">
+        <img src="pexels-jonathanborba-29327943.jpg" alt="Formula 1">
+
+        <div class="news-content">
+            <h3>Max Verstappen abandona as 24h de Nürburgring</h3>
+            <p>Clique para acessar a notícia completa.</p>
+        </div>
+    </a>
+
+    <!-- NOTÍCIA 2 -->
+    <a href="https://www.grandepremio.com.br/f1/noticias/red-bull-encontra-brecha-regulamento-chama-atencao-rivais-f1/" target="_blank" class="news-card">
+        <img src="pexels-jonathanborba-29252117.jpg" alt="Corrida">
+
+        <div class="news-content">
+            <h3>Red Bull encontra brecha no regulamento da F1</h3>
+            <p>Clique para acessar a notícia completa.</p>
+        </div>
+    </a>
+
+    <!-- NOTÍCIA 3 -->
+    <a href="https://motorsport.uol.com.br/endurance/news/com-problemas-no-carro-equipe-de-augusto-farfus-unico-brasileiro-no-grid-abandona-24h-de-nurburgrin/10821460/" target="_blank" class="news-card">
+        <img src="augusto-farfus.jpg" alt="Automobilismo">
+
+        <div class="news-content">
+            <h3>Equipe de Augusto Farfus abandona prova</h3>
+            <p>Clique para acessar a notícia completa.</p>
+        </div>
+    </a>
+
+    <!-- NOTÍCIA 4 -->
+    <a href="https://www.terra.com.br/esportes/automobilismo/24h-de-nurburgring-2026-manthey-abandona-apos-rodada-de-kevin-estre-na-briga-pela-lideranca,1923ebf54d56bd723908ea3eabd9cedaphcu8k55.html" target="_blank" class="news-card">
+        <img src="hans-n7TjxtaTzY0-unsplash.jpg" alt="Pista de corrida">
+
+        <div class="news-content">
+            <h3>Manthey abandona após rodada de Kevin Estre</h3>
+            <p>Clique para acessar a notícia completa.</p>
+        </div>
+    </a>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h2>AUTO RACING NEWS</h2>
+            <p>Portal de notícias sobre automobilismo.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Equipe</a>
+            <a href="#">Política</a>
+        </div>
+
+    </div>
+
+</footer>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./JS/serviceworker.js')
+    .then(() => console.log('PWA ativa'))
+    .catch(err => console.log(err));
+}
+</script>
+
+</body>
+</html>
